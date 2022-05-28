@@ -1,0 +1,79 @@
+:root {
+  --scrollspace:100vh;
+}
+h1 {
+  font-size: 3.5vw;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+p{
+  text-align: center;
+}
+/*シナリオ本（横積み）の設定*/
+.boxs{
+  position: relative;
+  width: 100%;
+  margin-top: 20vh;
+}
+.Scenarios{
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  justify-content:space-between;
+  bottom: 0vh;
+}
+.Scenarios li{
+  margin: 5%;
+  width: 10vw;
+  height: 10vw;
+  background-size: cover;
+  background-position: center;
+}
+/*背表紙*/
+.book1{
+  background-image: url("../images/ホットドック.png");
+}
+.book2{
+  background-image: url("../images/time.png");
+}
+.book3{
+  background-image: url("../images/game.png");
+}
+.book4{
+  background-image: url("../images/move.png");
+}
+.Scenarios a{
+  display: block;
+  height: 100%;
+  width: 100%
+}
+
+
+/*------------------------------------------------------------------------------------------------------------------------*/
+
+@media screen and (max-width: 480px){
+  body{
+    margin-top: 0%;
+    margin-bottom: 15%;
+  }
+  h1{
+    font-size: 8vw;
+  }
+  h2{
+    font-size: 4vw;
+  }
+  p,a{
+    font-size: 3vw;
+  }
+  .Scenarios{
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .Scenarios li{
+    width: 30vw;
+    height: 30vw;
+  }
+}

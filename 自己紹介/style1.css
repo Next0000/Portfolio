@@ -1,0 +1,100 @@
+h1 {
+  font-size: 3.5vw;
+  margin: 0;
+  padding: 0;
+}
+/*------------------------------------------------------------------------------------------------------------------------*/
+
+/*タイトル*/
+.repo1{
+  text-align: left;
+  position: relative;
+  margin: 1vw 5vw  0 5vw;
+  border: solid 2px;/*線*/
+  display: flex;
+}
+/*keywords*/
+.repo2{
+  position: relative;
+  border: double 4px;/*線*/
+  text-align: left;
+  padding: .5vw;
+  margin: 0;
+}
+/*story*/
+.repo3{
+  width: 70vw;
+  position: relative;
+  border: solid 2px;/*線*/
+  text-align: left;
+  padding: .5vw;
+  margin: 0 1vw  0 0;
+  flex-grow: 1.5;
+}
+
+main{
+  margin: 1vw 5vw;
+  display: flex;
+  height: auto;
+  padding-bottom: 1vw;
+}
+
+/*^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+@media screen and (max-width: 480px){
+  body{
+    margin-top: 0%;
+    margin-bottom: 15%;
+  }
+  h1{
+    font-size: 8vw;
+  }
+  h2{
+    font-size: 4vw;
+  }
+  p,a{
+    font-size: 3vw;
+  }
+
+  .repo2{
+    padding: 2vw;
+    height: auto;
+  }
+  .repo2 p{
+    margin: 0;
+  }
+  .repo3{
+    width: auto;
+    padding: 2vw;
+    margin: 2vw 0;
+  }
+  .repo3 p{
+    margin: 0;
+  }
+
+  .repo4{
+    margin: -2px 5vw  10vw 5vw;
+    display: block;
+    justify-content: space-between;
+  }
+  .repo4-1{
+      border: solid 2px #3F3515;
+      margin: 1vw 0 2vw 0;
+      padding: 2vw;
+      width: auto;
+  }
+  .repo4-1 ul p{
+    margin: 0; 
+  }
+  .repo4-2 p{
+    padding: 2vw;
+  }
+
+  .repo4-3{
+    border-left: none;
+  }
+
+  main{
+    height: auto;
+    display: block;
+  }
+}
