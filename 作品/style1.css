@@ -10,11 +10,22 @@ h1 {
 p{
   text-align: center;
 }
+.HAI{
+  margin: 5vw;
+  padding: 2vw;
+  background-color: gainsboro;
+}
+.link{
+  background-color: black;
+}
+.link a{
+  text-decoration: none;
+  color: aliceblue;
+}
 /*シナリオ本（横積み）の設定*/
 .boxs{
   position: relative;
   width: 100%;
-  margin-top: 20vh;
 }
 .Scenarios{
   list-style: none;
